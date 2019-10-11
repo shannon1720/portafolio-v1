@@ -74,49 +74,120 @@
 										<a href="#" class="image featured"><img src="images/Patterns - Copy.jpg" alt="" /></a>
 										<header>
 											<h2>Antipatrones</h2>
-											<p>Los patrones que no debemos implementar a la hora de codificar</p>
+											<p>“Una forma literaria que describe una solución  recurrente  que  genera consecuencias  negativas”</p>
 										</header>
 										<p>
-											La seguridad informática es un tema presente dentro de cada una de las empresas
+											Sirve para detectar fallos, o una manera  de descartar  las  alternativas  incorrectas  que  nos guíe a la elección de la alternativa óptima.
+											Los antipatrones poseen elementos,ejemplos de los que son mas comunes y la problemática que resuelve por ultimo un código fuente de un ejemplo sobre lo que no debemos implementar en el lenguaje JAVA.Sin embargo se puede implementar en un otros lenguajes de programación. 
+										</p>
+										<section>
+												<header>
+														<h3>Elementos</h3>
+													</header>
+										<p>
+												Nombre: establece  una  manera inequívoca  y  representativa  de identificar  la  solución  en  forma resumida e informativa.
+												
 										</p>
 										<p>
-											Praesent a dolor leo. Duis in felis in tortor lobortis volutpat et pretium tellus. Vestibulum ac ante nisl,
-											a elementum odio. Duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis.
-											placerat, nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc,
-											eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean
-											elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-											sit amet nullam consequat feugiat dolore tempus.
+												Solución  Antipatrón: incluye el síntoma,  consecuencia  y  una descripción  abstracta  de  la  solución problemática.
+												
 										</p>
-										<section>
-											<header>
-												<h3>Ciclo de vida</h3>
-											</header>
-											<p>
-												Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis.
-												placerat, nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc,
-												eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean
-												elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-												sit amet nullam consequat feugiat dolore tempus.
-											</p>
-											<p>
-												Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc,
-												eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean
-												elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-												sit amet nullam consequat feugiat dolore tempus.
-											</p>
+										<p>
+												Solución Refactorizada: descripción de las consecuencias positivas encontradas después  de  aplicada  la  solución refactorizada.
+												
+										</p>
 										</section>
 										<section>
 											<header>
-												<h3>So in conclusion ...</h3>
+												<h3>¿Cómo identificarlos ?</h3>
 											</header>
+											<p>A continuación se van a mencionar algunos ejemplos más destacados a la hora de codificar que probablemento muchos de nosotros hemos cometido. </p>
 											<p>
-												Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc,
-												eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean
-												elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-												sit amet nullam consequat feugiat dolore tempus. Elementum odio duis semper risus et lectus commodo fringilla.
-												Maecenas sagittis convallis justo vel mattis.
+												The blob:Conocido como el objeto todopoderoso.
+
+												Esta es la típica clase que monopoliza los procesos, tiene y hace de todo. Es difícil de rehusar y probar.
+												
+												La solución es dividirla y aplicar el principio de simple responsabilidad.
+												
 											</p>
+											<p>
+													Lava seca:conocido como código muerto.
+													Un porcentaje de desarrolladores prefiere crear código en vez de modificar el que existe ya que no fue hecho por ellos.
+													La solución es completar el proceso de arquitectura antes de poner en producción el código.
+													<br>
+													Síntomas:
+													Código importante y complejo sin documentar.
+													Extensos bloques de código documentado sin explicación.
+													Codigo sin usar.
+													
+											</p>
+											<p>
+													Descomposición funcional:Se conoce como antipatrón no orientado de objetos.
+
+													Ocurre al tratar de implementar un sistema de programación estructurada a POO.
+													
+													La solución es rediseñar el sistema totalmente orientado a objetos.
+													
+											</p>
+											<p>
+													Poltergeists:Conocido como la gitana, fantasmas que aparece y desaparece misteriosamente.
+
+													No se sabe bien lo que hacen algunas clases.
+													
+													La solución es cazar estos fantasmas y crear un buen diseño.
+													<br>
+													Sintomas:
+													Clases que no tienen una responsabilidad completa solo pedazos.
+													
+													Su uso es temporal debido a su corta vida, como esas que usamos solo para llamar un método de otra clase y pasar información hacia otro lado.
+													.
+													Clases sin estado
+											</p>
+											<p>
+												Martillo de oro: Conocido como el amigo fiel
+												La solución es un cambio de mentalidad, desarrollar mi herramienta con límites definidos y posibilidades de comunicación con otros componentes o herramientas de software.
+												<br>
+												Sintomas:
+												Es una aplicación o herramienta de software que se cree la mejor solución para todas las empresa, y que es aplicable universalmente.																						
+											</p>
+											<p>Programación copiar y pegar:Conocida como codificación portapapeles. 
+													La solución es crear algo genérico y que se use en todos los sitios donde sea requerido.
+													<br>
+													Sintomas:
+													Es cuando se copia y se pega código de un lado a otro desde soluciones existentes, se identifica por la existencia de segmentos de código similares. 
+											</p>
+											<p>
+
+													Código espagueti: Aparece en un software que contiene poca estructura o esta es muy pobre y demasiado complicada(enredada). 
+
+
+													La solución evidentemente es refactorizar y limpiar dicho código.
+													
+													Por ejemplo el uso indebido de la sentencia GOTO en muchos lenguajes.
+													<br>
+													Sintomas:
+													No tiene claridad y se entiende muy poco por la conexión sin sentido entre todos los componentes.
+													
+
+											</p>
+											<p>Para ver un ejemplo de aplicando estos antipatrones puedes visitar este <a href="https://github.com/shannon1720/AntiPatrones">link</a></p>
 										</section>
+
+										<section>
+												<header>
+													<h3>En conclusion</h3>
+												</header>
+												<p>
+														Los antipatrones, a diferencia de los patrones, no buscan resolver una problemática en específico sino más bien resaltar las malas prácticas frecuentes y proponer una contramedida.
+
+														Se pueden encontrar en diferentes ámbitos empresariales de ingeniería de software como:
+														
+														Desarrollo de software
+														Arquitectura de sistemas
+														Manejo de proyectos
+														
+												</p>
+											</section>
 									</article>
 
 							</div>
