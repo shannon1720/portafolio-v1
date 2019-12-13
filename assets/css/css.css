@@ -1,0 +1,598 @@
+@font-face {
+  font-family: MinionPro-Regular;
+  src: url(../fonts/MinionPro-Regular.otf);
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: MinionPro-Regular;
+}
+a {
+  color: #FFF;
+}
+.nav {
+  position: -webkit-sticky;
+  background-color: #FFF;
+  width: 100%;
+  height: 90px;
+  z-index: 9999;
+}
+div#sticker-sticky-wrapper {
+  width: 100%;
+}
+#sticker
+{width: 100%;
+z-index: 9999;}
+.header {
+  background-color: #0D2240;
+  height: 78px;
+  line-height: 78px;
+  font-size: 16px;
+  width: 100%!important;
+}
+.navigation {
+  height: 90px;
+  line-height: 78px;
+  font-size: 16px;
+}
+.items {
+  text-align: right;
+}
+.item {
+  display: inline-block;
+  color: #0D2240;
+  margin-left: 20px;
+}
+.logo-blanco {
+  margin-top: 18px;
+}
+.logo-blanco img {
+  width: 95px;
+  margin-left: 50px;
+}
+.logo-negro {
+  margin-top: 18px;
+}
+.logo-negro img {
+  width: 125px;
+  margin-left: 50px
+}
+.enjoy {
+  text-align: right;
+}
+.buy-now {
+  background-color: #A90829;
+  color: #FFF;
+  width: 140px;
+  height: 40px;
+  padding: 15px;
+  margin-left: 20px;
+  
+}
+a:hover {
+  text-decoration:none;
+}
+.buy-now2 {
+  background-color: #A90829;
+  color: #FFF;
+  /* height: 40px; */
+  line-height: 10px;
+  padding: 10px;
+  /* margin-top: 100px; */
+  margin-left: 20px;
+}
+.slogan-container {
+  background-color: #A90829;
+  padding: 50px;
+}
+.slogan {
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+.slogan img {
+  width: 650px;
+  margin-top: 20px;
+}
+.slogan-content {
+  clear: both;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 40px;
+  color: #FFF;
+  letter-spacing: 2px;
+  font-family: MinionPro-Regular;
+}
+.our-tuna-text {
+  color: #CEA052;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.section-text {
+  color: #CEA052;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 0px;
+}
+.icons div {
+  text-align: center
+}
+.icons img {
+  width: 130px;
+}
+.icons-2 {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.our-tuna-title {
+  background-color: #A90829;
+  text-align: center;
+  color: #FFF;
+  font-size: 30px;
+  height: 80px;
+  line-height: 80px;
+}
+.row-product {
+  margin-top: 10px;
+}
+.product {
+  text-align: center;
+  margin-top: 0px;
+}
+.product img {
+  width: 60%;
+}
+.row-product .title {
+  font-size: 25px;
+  color: #E3A900;
+  margin-top: 30vh;
+}
+.title span {
+  width: 50px;
+  height: 20px;
+  background-image: url(../img/line1.png);
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  margin-left: -100px;
+  margin-right: 50px;
+}
+.row-product .content {
+  color: #0A2240;
+  line-height: 30px;
+  width: 85%;
+  margin-top: 20px;
+  font-family: MinionPro-Regular;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+.back-product {
+  width: 100%;
+height: 400px;
+background-color: #DDDEE2;
+margin-top: -600px;
+opacity: 0.5;
+z-index: -1;
+position: relative;
+}
+.products {
+  margin-top: 150px;
+}
+.products div {
+  margin-left: 50px;
+}
+.row-recipe {
+  background-color: #F0F0F2;
+  margin-top: 50px;
+
+}
+.recipe-text{
+
+/* margin-top: 70px; */
+
+
+}
+
+.recipe-title-1 {
+  color: #0A2240;
+  text-align: center;
+  font-size: 26px;
+  margin-top: 80px; 
+  margin-bottom: 25px;
+  padding-top: 70px;
+}.recipe-title{
+  color: #0A2240;
+  text-align: center;
+  font-size: 26px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.recipe-content{color: #0A2240;
+text-align: center;
+width: 80%;
+letter-spacing: 2px;
+line-height: 40px;
+margin: auto;}
+.recipe-photo img{width: 100%;
+padding: 50px;}
+
+.recipe-photo-1 img {
+  width: 50%;
+  padding: 46px;
+  float: right;
+  margin-left: 29%;
+  margin-top: -31%;
+}
+.see-recipe {
+  background-color: #A90829;
+  color: #FFF;
+  width: 100px;
+  cursor: pointer;
+  line-height: 30px;
+  padding: 5px;
+  margin-left: 20px;
+  float: none!important; 
+  text-align: center;
+  margin: auto!important;
+}
+.row-slider {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.slide {
+  text-align: center;
+  color: #0A2240;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: auto;
+  height: auto;
+  ;
+}
+.slide img {
+  width: 70%;
+  margin: auto;
+}
+.slick-prev {
+  display: none !important;
+}
+.slick-next {
+  display: none !important;
+}
+.slick-dots {
+  text-align: center;
+  width: 100%;
+  padding-top: 50px;
+}
+.slick-dots li:after {
+  display: inline-block;
+}
+.slick-dots li button {
+  display: inline-block;
+}
+.row-footer-links {
+  margin-bottom: 100px;
+}
+.link-title {
+  color: #A90829;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+.link-desc {
+  color: #0A2240;
+  font-size: 15px;
+  text-align: center;
+}
+.row-footer {
+  height: 165px;
+  background-color: #0A2240;
+}
+.logofooter img {
+  margin-left: 50px;
+  margin-top: 55px
+}
+.links-footer {
+  margin-top: 50px;
+  text-align: right;
+}
+.fb,
+.insta {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.fb img,
+.insta img {
+  width: 20px;
+}
+.links-footer a {
+  margin-left: 20px;
+}
+.products div {cursor: pointer;}
+.title-1 {
+  color: #A90829 !important;
+}
+.title-2 {
+  color: #0A1230 !important;
+}
+.title-3 {
+  color: #63A052 !important;
+}
+.title-4 {
+  color: #908617 !important;
+}
+.title-5 {
+  color: #0D5554 !important;
+}
+.title-6 {
+  color: #EB932C !important;
+}
+.title-7 {
+  color: #F7C332 !important;
+}
+.title-8 {
+  color: #199AE0 !important;
+}
+.product-1 {
+  border-bottom:3px solid transparent !important;
+}
+.product-1:hover {
+  border-bottom:3px solid #A90829 !important;
+}
+.product-2:hover {
+  border-bottom:3px solid #0A1230 !important;
+}
+.product-3:hover {
+  border-bottom:3px solid #63A052 !important;
+}
+.product-4:hover {
+  border-bottom:3px solid #908617 !important;
+}
+.product-5:hover {
+  border-bottom:3px solid #0D5554 !important;
+}
+.product-6:hover {
+  border-bottom:3px solid #EB932C !important;
+}
+.product-7:hover {
+  border-bottom:3px solid #F7C332 !important;
+}
+.product-8:hover {
+  border-bottom:3px solid #199AE0 !important;
+}
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7,
+.img-8 {
+  display: none;
+}
+.title-2,
+.title-3,
+.title-4,
+.title-5,
+.title-6,
+.title-7,
+.title-8 {
+  display: none;
+}
+.content-2,
+.content-3,
+.content-4,
+.content-5,
+.content-6,
+.content-7,
+.content-8 {
+  display: none;
+}
+.recipe-product-2,
+.recipe-product-3,
+.recipe-product-4,
+.recipe-product-5,
+.recipe-product-6,
+.recipe-product-7,
+.recipe-product-8 {
+  display: none;
+
+}
+.opacity {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.5); 
+  z-index: 9999;
+  display: none;
+}
+.modals {
+  width: 70% !important;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  overflow: auto;
+  overflow-x: hidden;
+  height: 100vh;
+  margin-left: 15%;
+}
+.close-recipe{text-align: right; background-color: #FFF;
+padding: 10px;
+color: #666;cursor: pointer;}
+.row-modal{padding-left: 50px;
+  padding-right: 50px; background-color: #FFF;}
+.row-modal-title {
+  color: #d4477b;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.row-modal-title span {
+  color: #0A2240;
+  font-size: 15px;
+  line-height: 40px;
+  margin-left: 25px;
+}
+.ingredients-title {
+  color: #d4477b;
+  font-size: 15px;
+  padding-top:30px;
+  padding-bottom: 30px; 
+}
+.directions-title {
+  color:  #d4477b;
+  font-size: 15px;  padding-top:30px;
+  padding-bottom: 30px; 
+}
+.ingredients-contents {
+  color: #0A2240;
+  font-size: 15px;
+  padding-bottom: 50px;
+}
+.directions-contents {
+  color: #0A2240;
+  font-size: 15px;  padding-bottom: 50px;
+}
+.recipe-0,
+.recipe-1,
+.recipe-2,
+.recipe-3,
+.recipe-4,
+.recipe-5,
+.recipe-6 {
+  display: none;
+}
+
+.row-footer-recipe{background-color: #0A2240;
+padding: 20px;
+}
+.next{text-align:right;}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {.row-modal{padding-left:20px;
+  padding-right: 20px;}
+  .row-modal-title span{margin-left: 0px;}
+  .row-modal-title {clear:both}
+  div#sticker-sticky-wrapper {
+    width: 100%;
+    height: auto !important;
+  }
+  .items {
+    display: none;
+  }
+  .logo-blanco {
+    text-align: center;
+  }
+  .logo-blanco img {
+    margin-left: 0px;
+  }
+  .logo-negro {
+    text-align: center;
+  }
+  .logo-negro img {
+    margin-left: 0px;
+  }
+  .header {
+    background-color: #0D2240;
+    height: auto;
+  }
+  .enjoy {
+    text-align: center;
+  }
+  .navigation {
+    height: auto;
+  }
+  .item {
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    clear: both;
+    margin-left: 0px;
+  }
+  .buy-now2 {
+    background-color: #A90829;
+    color: #FFF;
+    /* height: 40px; */
+    line-height: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+  }
+  .slogan img {
+    width: 100%;
+  }
+  .icons div {
+    margin-bottom: 50px;
+  }
+  .row-footer {
+    height: auto;
+  }
+  .logofooter {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .logofooter img {
+    margin-left: auto;
+    margin: auto;
+  }
+  .links-footer {
+    text-align: center
+  }
+  .link {
+    margin-bottom: 50px;
+  }
+  .see-recipe {
+    background-color: #A90829;
+    color: #FFF;
+    width: 100px;
+    cursor: pointer;
+    line-height: 30px;
+    padding: 5px;
+    margin-left: 20px;
+    float: none !important;
+    text-align: center;
+    margin: auto !important;
+  }
+  .row-product {
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+  .back-product {
+    display: none;
+  }
+  .row-product .title {
+    text-align: center;
+    width: 100%;
+  }
+  .row-product .content {
+    text-align: center;
+    width: 100%;
+  }
+}
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+
+
+.content-arrow{
+padding-top: 5%;
+margin-left: 40%;
+color:#0D2240
+}
+.fa-chevron-down{
+  margin-left: 35%;
+}
+
+
